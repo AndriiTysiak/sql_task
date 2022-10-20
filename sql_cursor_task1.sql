@@ -18,7 +18,7 @@ VALUES ('Andrii', 'Tysiak', '21', 'MALE'),('Vuktoria', 'Yarema', '17', 'FEMALE')
 
 #Написати запит який виведе всіх повнолітніх
 
-SELECT * FROM cursor_sql.user_test WHERE age > 18;
+SELECT * FROM cursor_sql.user_test WHERE age >= 18;
 
 #Написати запит який виведе всіх чоловіків між 18 і 60 років
 
